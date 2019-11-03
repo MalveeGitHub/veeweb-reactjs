@@ -1,0 +1,50 @@
+#navbarNavDropdown{
+  padding-left: 50%;
+}
+
+ 
+nav{
+  background:#2a2e35;
+  color:white
+}
+
+nav.sidenav{
+  height: 100vh;
+  min-height: 500px;
+  overflow-x: visible;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 70px;
+  padding-top: var(--nav-width);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  transition: left .3s
+}
+
+div.item{
+  min-height: 70px;
+  margin-top:30%;  
+  /* padding-top:40px; */
+  text-align: center;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.item img{
+  fill:#b2becd !important;
+  height: 50px;
+  width: 50px;
+  padding:0;
+  margin:0;
+}
+
+div.item:hover{
+  background:#fa7d3c;
+
+}
