@@ -33,7 +33,7 @@ export default class Nav extends Component{
            <Link data-tip="DONATE AT PATREON" to="/patreon"><img src ={donation}></img></Link>
           </div>
           <div className="item">
-           <Link data-tip="CONTACT US" to="/youtube"><img src ={contact}></img></Link>
+           <Link data-tip="CONTACT US" to="/contact"><img src ={contact}></img></Link>
           </div>
           <ReactTooltip />
         </nav>

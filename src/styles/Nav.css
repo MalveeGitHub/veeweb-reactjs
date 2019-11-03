@@ -22,7 +22,12 @@ nav.sidenav{
   align-items: center;
   justify-content: center;
   z-index: 99;
-  transition: left .3s
+  transition: left .3s;
+
+
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
 }
 
 div.item{
